@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(54, 54, 54);
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  margin: 70px auto;
+  resize: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+.keyboard {
+  background-color: #171617;
+  position: relative;
+  display: flex;
+  width: 728px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  z-index: 1111;
+}
+.key {
+  background-color: rgb(54, 54, 54);
+
+  color: #fafafa;
+  width: 39px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  border: 1px solid rgb(54, 54, 54);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.my-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  color: #fafafa;
+}
+.clearfix {
+  clear: both;
+}
+.Backspace {
+  width: 81px;
+}
+.CapsLock {
+  width: 91px;
+}
+.Tab {
+  width: 80px;
+}
+.Enter {
+  width: 77px;
+}
+.Shift {
+  width: 128px;
+}
+.ShiftR {
+  width: 39px;
+}
+.Space {
+  width: 282px;
+}
+.Control {
+  width: 60px;
+}
+.key:hover {
+  background-color: rgba(255, 0, 106, 0.3);
+}
+.key.active {
+  background-color: #000;
+  background-color: rgba(255, 0, 106, 0.7);
+  border-radius: 10px;
+}
+.CapsLock.active {
+  background-color: #000;
+  background-color: rgba(255, 0, 106, 0.7);
+  border-radius: 10px;
+}
