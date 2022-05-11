@@ -32,8 +32,7 @@ document.body.append(textarea);
 document.body.append(keyboard);
 document.body.append(myText);
 
-myText.innerText = `Клавиатура сделана на ОС Windows, 
-  комбинация для смены языка левый Alt + левый Shift`;
+myText.innerText = 'Клавиатура сделана на ОС Windows, комбинация для смены языка левый Alt + левый Shift';
 
 const initKeyboard = (keyLang) => {
   let valueStr = '';
